@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboardian.css">
+    <script src="dashboard.js" defer></script>
+</head>
+<body>
+    <div class="navi">
+        <div class="navi-left">
+            <a href="index.html">
+                <img id="logo" src="images/scholarly.png" alt="Scholarly logo">
+            </a>            
+        </div>
+        <div class="navi-right">
+            <p class="welcome">Jeremías Branger</p>
+            <img id="notif" src="images/notif.png" alt="Notifications">
+            <img id="pfp" src="images/pfp.jpg" alt="Profile picture">
+        </div>
+    </div>
+
+    <div class="dashboard container">
+        <aside class="sidebar">
+            <div class="profile-card">
+                <img class="profile-img" src="images/pfp.jpg" alt="pfp">
+                <div class="profile-meta">
+                    <h3>Jeremías</h3>
+                    <p class="muted">Research assistant · Demo account</p>
+                </div>
+            </div>
+
+            <div class="interest-card card">
+                <h4>Active Search Interest</h4>
+                <p class="interest">Cosmology &amp; Early Dark Energy</p>
+            </div>
+
+            <div class="saved-profs card">
+                <h4>Saved Professors</h4>
+                <div class="prof-list">
+                    <div class="prof-card">
+                        <div class="prof-avatar">AH</div>
+                        <div class="prof-body">
+                            <strong>Dr. Ana Hernández</strong>
+                            <span class="muted">Princeton University</span>
+                            <div class="tags">Dark Energy · Cosmology · CMB</div>
+                        </div>
+                        <div class="prof-actions">
+                            <button class="contact">Contact</button>
+                        </div>
+                    </div>
+
+                    <div class="prof-card">
+                        <div class="prof-avatar">MZ</div>
+                        <div class="prof-body">
+                            <strong>Prof. Marcus Zhao</strong>
+                            <span class="muted">Caltech</span>
+                            <div class="tags">Early Universe · Simulations</div>
+                        </div>
+                        <div class="prof-actions">
+                            <button class="contact">Contact</button>
+                        </div>
+                    </div>
+
+                    <div class="prof-card">
+                        <div class="prof-avatar">LC</div>
+                        <div class="prof-body">
+                            <strong>Dr. Laura Campos</strong>
+                            <span class="muted">University of Cambridge</span>
+                            <div class="tags">Theory · Inflation · Observational</div>
+                        </div>
+                        <div class="prof-actions">
+                            <button class="contact">Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="main-header">
+                <div>
+                    <h1 class="dashboard-title">Dashboard</h1>
+                </div>
+                <div class="search">
+                    <button class="search-btn">New Search</button>
+                </div>
+            </header>
+
+            <section class="stats">
+                <div class="stat card">
+                    <div class="stat-number">128</div>
+                    <div class="stat-label">Papers saved</div>
+                </div>
+                <div class="stat card">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Active alerts</div>
+                </div>
+                <div class="stat card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Saved collaborators</div>
+                </div>
+            </section>
+
+            <section class="activity card">
+                <h3>Recent activity</h3>
+                <ul>
+                    <li>Saved paper: "Early Dark Energy signatures in the CMB" — 2h ago</li>
+                    <li>Added Prof. Ana Hernández to Saved Professors — yesterday</li>
+                    <li>Search alert: "cosmology" — new matches (5) — 3 days ago</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <div class="search_overlay">
+        <div class="search_box">
+            <input type="text" id="searchy" placeholder="Search for papers, professors, or topics...">
+            <div class="search_results">
+                <p class="muted">No results found.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
