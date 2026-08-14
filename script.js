@@ -31,7 +31,3 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 });
 
-// simple accessibility: allow login button keyboard focus style
-document.addEventListener('keydown', (e) => {
-	if (e.key === 'Tab') document.body.classList.add('show-focus');
-});

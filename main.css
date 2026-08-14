@@ -37,6 +37,15 @@ body{
     padding:6px 10px;
 }
 
+.about:hover{
+    opacity:0.8;
+}
+
+#logo:hover{
+    transform:scale(1.05);
+    transition:transform 0.2s ease-in-out;
+}
+
 .login-btn{
     background:var(--accent);
     color:#fff;
@@ -47,11 +56,12 @@ body{
     cursor:pointer;
 }
 
-.login-btn:hover{opacity:0.95}
+.login-btn:hover{
+    opacity:0.9;
+}
 
 button{font-family:inherit}
 
-/* Hero / entrance */
 .entrance{
     min-height:100vh;
     display:flex;
