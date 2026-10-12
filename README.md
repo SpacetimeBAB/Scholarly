@@ -1,7 +1,7 @@
 # Scholarly (Legacy / Archived Version)
 
 > **⚠️ Status: ARCHIVED / ABANDONED**  
-> This repository contains the original, legacy codebase for **Scholarly**. This version has been deprecated and abandoned as the project has been fully migrated to a modern **Next.js and TypeScript** stack. 
+> This repository contains the original, legacy codebase for **Scholarly**. This version has been deprecated and abandoned as the project has been fully migrated to a modern **Next.js and TypeScript** stack. (Login and API searches have been cycled)
 > 
 > *Note: The new, production-ready version of Scholarly is currently **under construction** and is not yet publicly available for viewing.*
 
